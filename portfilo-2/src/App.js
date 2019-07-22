@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from './components/Navbar'
 
 function App() {
   return (
+    <Navbar></Navbar>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +24,7 @@ function App() {
       </header>
     </div>
   );
-}
+};
+
 
 export default App;

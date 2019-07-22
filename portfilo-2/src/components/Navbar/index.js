@@ -1,6 +1,8 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Button';
+import './style.css'
 
+function Navbar(props) {
+    return(
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,3 +24,6 @@ import Navbar from 'react-bootstrap/Button';
     </Form>
   </Navbar.Collapse>
 </Navbar>
+    )
+}
+export default Navbar;
