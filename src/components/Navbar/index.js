@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import './style.css'
 
-function Navbar(props) {
-    return(
+class CustomNavbar extends Component {
+    render () {
+        return (
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,6 +27,7 @@ function Navbar(props) {
     </Form>
   </Navbar.Collapse>
 </Navbar>
-    )
+        )
 }
-export default Navbar;
+}
+export default CustomNavbar;
