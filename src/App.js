@@ -7,7 +7,7 @@ import CardPic from './components/CardPic';
 
 function App() {
   return (
-    <Router>
+    <Router basename='portfolio-2'>
     <Navbar />
     <CardPic />
     </Router>
