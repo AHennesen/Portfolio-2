@@ -8,13 +8,14 @@ import {Image} from '../Images/me.jpg'
 class CardPic extends Component {
     render () {
         return (
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image} />
+<Card style={{ width: '50rem' }}>
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Hello, My name is Andrew Hennesen</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      I am a new Full Stack Web Deleoper exited to make ideas into realities.
+    </Card.Text>
+    <Card.Text>
+      You can see my a collection of the projects that I have worked on in my portfolio page.
     </Card.Text>
   </Card.Body>
 </Card>
