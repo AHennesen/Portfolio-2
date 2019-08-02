@@ -7,8 +7,8 @@ import DropdownButton from './components/Dropdown'
 function App() {
   return (
     <Router basename='portfolio-2'>
-    <DropdownButton/>
-    <CardPic />
+      <DropdownButton/>
+        <Route exact path = '/' component = {CardPic} />
     </Router>
   );
 };

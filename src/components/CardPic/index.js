@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Card, Button } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import './style.css'
-import {Image} from '../Images/me.jpg'
+import  Image from './me2.jpg'
 
 
 class CardPic extends Component {
     render () {
         return (
-<Card style={{ width: '50rem' }}>
+<Card style={{ width: '43rem' }}>
+  <Card.Img variant ="top" src ={Image}/>
   <Card.Body>
     <Card.Title>Hello, My name is Andrew Hennesen</Card.Title>
     <Card.Text>
