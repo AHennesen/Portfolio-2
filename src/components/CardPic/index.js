@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { Card } from 'react-bootstrap'
 import './style.css'
 import  Image from './me2.jpg'
@@ -8,7 +7,7 @@ import  Image from './me2.jpg'
 class CardPic extends Component {
     render () {
         return (
-<Card style={{ width: '43rem' }}>
+<Card>
   <Card.Img variant = 'top' src = {Image} />
   <Card.Body>
     <Card.Title>Hello, My name is Andrew Hennesen</Card.Title>
