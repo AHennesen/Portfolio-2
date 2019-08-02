@@ -9,7 +9,7 @@ class CardPic extends Component {
     render () {
         return (
 <Card style={{ width: '43rem' }}>
-  <Card.Img variant ="top" src ={Image}/>
+  <Card.Img variant = 'top' src = {Image} />
   <Card.Body>
     <Card.Title>Hello, My name is Andrew Hennesen</Card.Title>
     <Card.Text>
