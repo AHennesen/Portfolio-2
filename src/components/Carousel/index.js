@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './style.css'
 import {Carousel} from 'react-bootstrap'
+import placeholder from './abstract-q-c-450-400-6.jpg'
 
 class Portfolio extends Component {
     render () {
@@ -9,7 +10,7 @@ class Portfolio extends Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src={placeholder}
                     alt="First slide"
                     />
                     <Carousel.Caption>

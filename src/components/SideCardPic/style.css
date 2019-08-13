@@ -1,0 +1,13 @@
+.Container {
+/* float: left; */
+max-width: 100%;
+}
+
+.row {
+float: left;
+}
+.card {
+    /* flex-wrap: inherit; */
+    word-wrap: break-word;
+}
+
