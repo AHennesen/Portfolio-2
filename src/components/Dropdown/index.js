@@ -1,5 +1,6 @@
 import {Dropdown} from 'react-bootstrap'
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import './style.css'
 
 class DropdownButton extends Component {
@@ -11,8 +12,8 @@ class DropdownButton extends Component {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-                <Dropdown.Item href="/">Home</Dropdown.Item>
-                <Dropdown.Item href="/Portfolio">Portfolio</Dropdown.Item>
+                <Link to="/">Home</Link>
+                <Dropdown.Item Link to="/Portfolio">Portfolio</Dropdown.Item>
             </Dropdown.Menu>
     </Dropdown>
         )
