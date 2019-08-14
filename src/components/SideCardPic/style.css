@@ -1,13 +1,14 @@
-.Container {
-/* float: left; */
-max-width: 100%;
+.mb-80 {
+    margin-bottom: 80px;
 }
 
-.row {
-float: left;
+p {
+    color: whitesmoke;
 }
-.card {
-    /* flex-wrap: inherit; */
-    word-wrap: break-word;
+h4.mt-60 {
+    color: whitesmoke;
 }
 
+.btn.btn-default {
+    color: whitesmoke
+}
