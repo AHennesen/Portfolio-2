@@ -9,8 +9,10 @@ function App() {
   return (
     <Router basename='Portfolio-2'>
       <DropdownButton/>
-        <Route exact path = '/' component = {CardPic} />
-        <Route exact path = '/Portfolio' component = {Portfolio} />
+        <Switch>
+          <Route exact path = '/' component = {CardPic} />
+          <Route exact path = '/Portfolio' component = {Portfolio} />
+        </Switch>
     </Router>
   );
 };
