@@ -54,7 +54,7 @@ class Portfolio extends Component {
 				<a href="https://floating-wave-65456.herokuapp.com/" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Visit the Site</a>
 			</div>
 			<div class="col-sm-6">
-				<Image src ={onBoard} width="90%" rounded/>
+				<Image src = {onBoard} width="90%" rounded/>
 			</div>
 		</div>
 

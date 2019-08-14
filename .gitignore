@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # Images in components
-**/src/components/SideCardPic/Images
+# **/src/components/SideCardPic/Images
