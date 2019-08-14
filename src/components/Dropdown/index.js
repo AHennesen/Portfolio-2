@@ -13,7 +13,6 @@ class DropdownButton extends Component {
             <Dropdown.Menu>
                 <Dropdown.Item href="/">Home</Dropdown.Item>
                 <Dropdown.Item href="/Portfolio">Portfolio</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </Dropdown.Menu>
     </Dropdown>
         )
