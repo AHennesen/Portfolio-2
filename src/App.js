@@ -7,7 +7,7 @@ import Portfolio from './components/SideCardPic';
 
 function App() {
   return (
-    <Router basename='portfolio-2'>
+    <Router basename='Portfolio-2'>
       <DropdownButton/>
         <Route exact path = '/' component = {CardPic} />
         <Route exact path = '/Portfolio' component = {Portfolio} />
