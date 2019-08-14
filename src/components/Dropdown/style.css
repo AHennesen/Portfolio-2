@@ -4,4 +4,9 @@
 
 .dropdown-toggle.btn.btn-clear {
     color: whitesmoke;
+    size: 50px;
+}
+
+#text {
+    size: 50px;
 }
