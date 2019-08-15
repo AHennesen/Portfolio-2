@@ -13,7 +13,7 @@ class DropdownButton extends Component {
 
             <Dropdown.Menu>
                 <Dropdown.Item><Link to="/">Home</Link></Dropdown.Item>
-                <Dropdown.Item><Link to="/Portfolio">Portfolio</Link></Dropdown.Item>
+                <Dropdown.Item> <Link to="/Portfolio">Portfolio</Link> </Dropdown.Item>
             </Dropdown.Menu>
     </Dropdown>
         )
