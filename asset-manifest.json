@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-2/static/css/main.08a4a118.chunk.css",
-    "main.js": "/Portfolio-2/static/js/main.8c08aa69.chunk.js",
-    "main.js.map": "/Portfolio-2/static/js/main.8c08aa69.chunk.js.map",
+    "main.css": "/Portfolio-2/static/css/main.79af176f.chunk.css",
+    "main.js": "/Portfolio-2/static/js/main.512af70b.chunk.js",
+    "main.js.map": "/Portfolio-2/static/js/main.512af70b.chunk.js.map",
     "runtime~main.js": "/Portfolio-2/static/js/runtime~main.07b85818.js",
     "runtime~main.js.map": "/Portfolio-2/static/js/runtime~main.07b85818.js.map",
-    "static/js/2.319436c5.chunk.js": "/Portfolio-2/static/js/2.319436c5.chunk.js",
-    "static/js/2.319436c5.chunk.js.map": "/Portfolio-2/static/js/2.319436c5.chunk.js.map",
+    "static/js/2.d83b648c.chunk.js": "/Portfolio-2/static/js/2.d83b648c.chunk.js",
+    "static/js/2.d83b648c.chunk.js.map": "/Portfolio-2/static/js/2.d83b648c.chunk.js.map",
     "index.html": "/Portfolio-2/index.html",
-    "precache-manifest.b676006d08a9992f3a62ffc9d45a297b.js": "/Portfolio-2/precache-manifest.b676006d08a9992f3a62ffc9d45a297b.js",
+    "precache-manifest.7453bb0f5a72499aed2e365be2805921.js": "/Portfolio-2/precache-manifest.7453bb0f5a72499aed2e365be2805921.js",
     "service-worker.js": "/Portfolio-2/service-worker.js",
-    "static/css/main.08a4a118.chunk.css.map": "/Portfolio-2/static/css/main.08a4a118.chunk.css.map",
+    "static/css/main.79af176f.chunk.css.map": "/Portfolio-2/static/css/main.79af176f.chunk.css.map",
+    "static/media/ClickGame.gif": "/Portfolio-2/static/media/ClickGame.1fe06e40.gif",
+    "static/media/HackerNews.gif": "/Portfolio-2/static/media/HackerNews.752fca66.gif",
     "static/media/me.jpg": "/Portfolio-2/static/media/me.6ee9a879.jpg",
+    "static/media/movie-this.png": "/Portfolio-2/static/media/movie-this.ad64c824.png",
     "static/media/onBoard.gif": "/Portfolio-2/static/media/onBoard.8963526b.gif"
   }
 }
