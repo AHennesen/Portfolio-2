@@ -12,7 +12,7 @@ class CardPic extends Component {
   <Card.Body>
     <Card.Title>Hello, My name is Andrew Hennesen</Card.Title>
     <Card.Text>
-      I am a new Full Stack Web Deleoper exited to make ideas into realities.
+      I am a new Full Stack Web Developer exited to make ideas into realities.
     </Card.Text>
     <Card.Text>
       You can see my a collection of the projects that I have worked on in my portfolio page.
