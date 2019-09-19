@@ -15,6 +15,9 @@ class CardPic extends Component {
       I am a new Full Stack Web Developer exited to make ideas into realities.
     </Card.Text>
     <Card.Text>
+      I am proficent in the following skills: HTML5 ,Redux, ReactJS, Github, CSS3, Bootstrap, VueJS, Version Control(Git),JavaScript, jQuery, ES6, VSCode, ExpressJS, NodeJS, AJAX, API Interactions, MySQL, MongoDB, Firebase.
+    </Card.Text>
+    <Card.Text>
       You can see my a collection of the projects that I have worked on in my portfolio page.
     </Card.Text>
   </Card.Body>
