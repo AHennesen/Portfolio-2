@@ -37,7 +37,8 @@ class Portfolio extends Component {
 				<h4 class="mt-60">Know Your Art</h4>
 				<p>Know Your Art is a react based memory game that revolves around famous art. The user must click eact painting only once per round. Once all the paintings have been clicked the user wins.</p>
                 <p>This project was made useing: HTML5, CSS3, React, Axios, and Bootstrap. </p>
-				<a href="https://ahennesen.github.io/ReactClickGame/" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Give it a try</a>
+				<a href="https://ahennesen.github.io/ReactClickGame/" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Give it a try </a> 
+				<a href="https://github.com/AHennesen/ReactClickGame" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Or visit the repository</a> 
 			</div>
 			<div class="col-sm-6">
 				<Image src= {artGif} width="90%" rounded/>
@@ -53,7 +54,8 @@ class Portfolio extends Component {
                 <h4 class = 'mt-60'>Hacker News Scrapper</h4>
                 <p>A website that searches for the top stories from news.ycombinator and brings them up in a list.  Users can then comment on and save articles they would like to look at again later.</p>
                 <p>This project was made useing: HTML5, CSS3, AJAX, Axios, and Cheerio. </p>
-                <a href = 'https://cryptic-oasis-79349.herokuapp.com/' class = 'btn btn-default' target = '_blank' rel = 'noopener noreferrer'>Visit the website</a>
+                <a href = 'https://cryptic-oasis-79349.herokuapp.com/' class = 'btn btn-default' target = '_blank' rel = 'noopener noreferrer'>Visit the website </a>
+                <a href = 'https://github.com/AHennesen/moongoseHackerNews' class = 'btn btn-default' target = '_blank' rel = 'noopener noreferrer'>Or take look at the repository</a>
             </div>
         </div>
 
@@ -63,7 +65,8 @@ class Portfolio extends Component {
 				<h4 class="mt-60">onBoard</h4>
 				<p>onBoard is a web based app that allows people to both find and create pick-up games for all their favorite board games.  Users must make an account and from there they can choose to join another players game that is already schedule or make their own if they would prefer.</p>
                 <p>This project was made useing: HTML5, CSS3, React, Redux,  Axios, and Bootstrap. </p>
-				<a href="https://floating-wave-65456.herokuapp.com/" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Visit the Site</a>
+				<a href="https://quiet-fortress-68299.herokuapp.com" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Visit the Site </a>
+				<a href="https://github.com/AHennesen/onBoard" class="btn btn-default" target="_blank" rel = 'noopener noreferrer'>Or take a look at the repository</a>
 			</div>
 			<div class="col-sm-6">
 				<Image src = {onBoard} width="90%" rounded/>
