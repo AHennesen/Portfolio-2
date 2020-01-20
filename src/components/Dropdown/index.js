@@ -1,21 +1,19 @@
 import {Dropdown} from 'react-bootstrap'
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { slide as Menu} from "react-burger-menu";
 import './style.css'
 
 class DropdownButton extends Component {
+    showSettings (event) {
+        event.preventDefault();
+    }
     render() {
         return (
-        <Dropdown>
-            <Dropdown.Toggle variant="clear" id="dropdown-basic">
-                ≡
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu variant="clear"> 
-                <Dropdown.Item><Link to="/">Home</Link></Dropdown.Item>
-                <Dropdown.Item> <Link to="/Portfolio">Portfolio</Link> </Dropdown.Item>
-            </Dropdown.Menu>
-    </Dropdown>
+        <Menu>
+            <a id = "home" className = "menu-item" href="/">Home</a>
+            <a id = "portfolio" className = "menu-item" href="/portfolio">portfolio</a>
+    </Menu>
         )
     }
 }
